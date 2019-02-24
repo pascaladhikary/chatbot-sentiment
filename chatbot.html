@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="chatstyle.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+    <body>
+    <!-- top bar -->
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="masthead mb-auto">
+            <div class="inner">
+                <h3 class="masthead-brand text-white">ChillMD</h3>
+                <nav class="nav nav-masthead justify-content-center">
+                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link active" href="register.html">Chatbot</a>
+                    <a class="nav-link" href="about.html">About</a>
+                </nav>
+            </div>
+        </header>
+    </div>
+    <!-- rest -->
+    <div class="container-fluid" id="main">
+        <div id="responses"></div>
+        <div id="output"></div>
+    </div>
+    <div id="container">
+            <input type="text" id="input" value="">
+        </div>
+    </body>
+    <!-- jquery for enter key press -->      
+    <script src="https://code.jquery.com/jquery-3.0.0.js" integrity="sha256-jrPLZ+8vDxt2FnE1zvZXCkCcebI/C8Dt5xyaQBjxQIo=" crossorigin="anonymous"></script>
+    <script src="sentimood.js"></script>
+    <script src="chatscript.js"></script>
+</html>
